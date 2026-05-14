@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.mainRegion {
+  display: grid;
+  place-items: center;
+}
+article {
+  margin: 1rem 0;
+  padding: 0 1rem;
+  background-color: black;
+  color: #fff;
+  font-family: "roboto", "Edu AU VIC WA NT Guides";
+}
+button {
+  background-color: yellow;
+  margin-bottom: 1rem;
+}
+button:hover,
+:focus {
+  cursor: pointer;
+  background-color: white;
+}
